@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+data/*.csv
+outputs/*.pkl
+*.zip
+
+# 数据集解压在 asap-master/data/，上面的 data/*.csv 不会匹配到该路径
+asap-master/data/*.csv
